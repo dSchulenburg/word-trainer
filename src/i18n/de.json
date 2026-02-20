@@ -1,0 +1,352 @@
+{
+  "app": {
+    "title": "Word-Trainer",
+    "subtitle": "Mein erstes Dokument"
+  },
+  "nav": {
+    "levels": "Level-Karte",
+    "badges": "Abzeichen",
+    "glossary": "Glossar",
+    "profile": "Profil"
+  },
+  "playerLevel": {
+    "1": "Anfänger",
+    "2": "Entdecker",
+    "3": "Textkenner",
+    "4": "Formatierprofi",
+    "5": "Word-Held"
+  },
+  "common": {
+    "back": "Zurück",
+    "next": "Weiter",
+    "check": "Prüfen",
+    "hint": "Tipp",
+    "stars": "Sterne",
+    "xp": "XP",
+    "level": "Level",
+    "locked": "Gesperrt",
+    "completed": "Abgeschlossen",
+    "streak": "Streak",
+    "day": "Tag",
+    "days": "Tage",
+    "errors": "Fehler",
+    "perfect": "Perfekt!",
+    "tryAgain": "Nochmal versuchen",
+    "start": "Starten",
+    "close": "Schließen",
+    "name": "Name",
+    "save": "Speichern",
+    "reset": "Fortschritt zurücksetzen"
+  },
+  "levelMap": {
+    "title": "Dein Weg zum Word-Profi",
+    "exercise": "Übung"
+  },
+  "exercise": {
+    "step": "Schritt",
+    "instructions": "Anleitung",
+    "checkAnswer": "Antwort prüfen",
+    "stepComplete": "Schritt erledigt!",
+    "allComplete": "Alle Schritte erledigt!",
+    "hintAvailable": "Tipp verfügbar"
+  },
+  "complete": {
+    "title": "Geschafft!",
+    "xpEarned": "+{xp} XP verdient",
+    "newBadge": "Neues Abzeichen!",
+    "nextExercise": "Nächste Übung",
+    "backToMap": "Zurück zur Karte"
+  },
+  "badges": {
+    "title": "Abzeichen-Wand",
+    "earned": "Erhalten",
+    "locked": "Noch nicht freigeschaltet"
+  },
+  "badge": {
+    "firstText": "Erster Text",
+    "firstFormat": "Erste Formatierung",
+    "briefDone": "Brief geschrieben",
+    "listenDone": "Listen-Meister",
+    "tabellenDone": "Tabellen-Profi",
+    "designDone": "Design-Künstler",
+    "geschaeftsbriefDone": "Geschäftsbrief-Experte",
+    "profiDone": "Word-Profi",
+    "perfectScore": "Perfekte Bewertung",
+    "speedDemon": "Blitzschnell",
+    "streak3": "3-Tage-Streak",
+    "polyglot": "Mehrsprachig",
+    "formattingKing": "Formatier-König"
+  },
+  "profile": {
+    "title": "Mein Profil",
+    "chooseAvatar": "Avatar wählen",
+    "enterName": "Dein Name"
+  },
+  "glossary": {
+    "title": "Word-Glossar",
+    "term": "Begriff",
+    "german": "Deutsch",
+    "english": "English",
+    "description": "Erklärung"
+  },
+  "editor": {
+    "placeholder": "Hier tippen..."
+  },
+  "toolbar": {
+    "bold": "Fett (Strg+B)",
+    "italic": "Kursiv (Strg+I)",
+    "underline": "Unterstrichen (Strg+U)",
+    "heading1": "Überschrift 1",
+    "heading2": "Überschrift 2",
+    "bulletList": "Aufzählung",
+    "orderedList": "Nummerierte Liste",
+    "table": "Tabelle einfügen",
+    "alignLeft": "Linksbündig",
+    "alignCenter": "Zentriert",
+    "alignRight": "Rechtsbündig",
+    "colorRed": "Rot",
+    "colorBlue": "Blau",
+    "colorGreen": "Grün",
+    "horizontalRule": "Trennlinie"
+  },
+  "level1": {
+    "title": "Mein erster Text",
+    "story": "Du bist neu in Deutschland und schreibst deinen ersten Text am Computer. Los geht's!",
+    "ex1": {
+      "title": "Begrüßungstext",
+      "story": "Schreibe deinen ersten Text! Benutze die Eingabetaste (Enter) für neue Absätze.",
+      "step1": "Schreibe 'Hallo, ich bin neu hier.'",
+      "step2": "Drücke Enter und schreibe 'Ich komme aus...' (dein Land)",
+      "step3": "Schreibe einen dritten Absatz: 'Ich lerne jetzt Deutsch.'",
+      "hint1": "Tippe einfach los! Nach jedem Satz drücke Enter für einen neuen Absatz.",
+      "hint2": "Du brauchst mindestens 3 Absätze – trenne sie mit der Enter-Taste."
+    },
+    "ex2": {
+      "title": "Fett & Kursiv",
+      "story": "Mache wichtige Wörter fett oder kursiv – so fällt der Text besser auf!",
+      "step1": "Markiere 'Maria' und mache es fett (B-Button oder Strg+B)",
+      "step2": "Markiere 'Hamburg' und mache es fett",
+      "step3": "Markiere 'gerne' und mache es kursiv (I-Button oder Strg+I)",
+      "hint1": "Markiere ein Wort mit der Maus (doppelklicken), dann klicke auf den B-Button.",
+      "hint2": "Fett = B-Button, Kursiv = I-Button in der Werkzeugleiste."
+    },
+    "ex3": {
+      "title": "Überschrift gestalten",
+      "story": "Überschriften machen Texte übersichtlich. Lerne, wie man sie erstellt!",
+      "step1": "Setze den Cursor in 'Mein erster Tag' und mache es zur Überschrift (H1)",
+      "step2": "Mache die Überschrift fett",
+      "step3": "Schreibe noch einen dritten Absatz dazu",
+      "hint1": "Klicke in die erste Zeile und dann auf den H1-Button in der Werkzeugleiste.",
+      "hint2": "Eine Überschrift ist größer als normaler Text und hebt den Titel hervor."
+    },
+    "ex4": {
+      "title": "Kurzen Brief formatieren",
+      "story": "Formatiere einen kurzen Brief an deine Mama – mit Datum rechts und Anrede fett.",
+      "step1": "Richte das Datum rechtsbündig aus (Ausrichtung-Button →)",
+      "step2": "Mache 'Liebe Mama,' fett",
+      "step3": "Mache 'Deine Maria' kursiv",
+      "hint1": "Markiere das Datum und klicke auf den Rechtsbündig-Button.",
+      "hint2": "Anrede (Liebe Mama) wird oft fett geschrieben – markiere den Text und klicke B."
+    }
+  },
+  "level2": {
+    "title": "Listen & Struktur",
+    "story": "Dein neues Leben braucht Organisation — Checklisten, Einkaufslisten, Termine. Listen helfen dir!",
+    "ex1": {
+      "title": "Einkaufsliste",
+      "story": "Erstelle eine Einkaufsliste mit Aufzählungszeichen.",
+      "step1": "Erstelle eine Aufzählung mit mindestens 4 Punkten (• Button)",
+      "step2": "Der erste Punkt soll 'Brot' enthalten",
+      "step3": "Mache die Überschrift 'Einkaufsliste' fett",
+      "hint1": "Klicke auf den • Button und tippe deine Einkäufe – Enter für den nächsten Punkt.",
+      "hint2": "Beginne mit 'Brot', dann füge weitere Artikel hinzu."
+    },
+    "ex2": {
+      "title": "To-Do-Liste",
+      "story": "Erstelle eine nummerierte To-Do-Liste für deinen Tag.",
+      "step1": "Erstelle eine nummerierte Liste mit mindestens 3 Aufgaben (1. Button)",
+      "step2": "Die erste Aufgabe soll 'Deutschkurs' enthalten",
+      "step3": "Mache die Überschrift fett",
+      "hint1": "Klicke auf den '1.' Button für eine nummerierte Liste.",
+      "hint2": "Nummerierte Listen sind perfekt für Aufgaben in einer bestimmten Reihenfolge."
+    },
+    "ex3": {
+      "title": "Tagesplan",
+      "story": "Strukturiere deinen Tag mit Überschriften und Listen.",
+      "step1": "Schreibe eine Überschrift 'Vormittag' als H2",
+      "step2": "Erstelle darunter eine Aufzählung mit mindestens 2 Aktivitäten",
+      "step3": "Schreibe eine Überschrift 'Nachmittag' als H2",
+      "hint1": "Benutze H2 für Unter-Überschriften (kleiner als H1).",
+      "hint2": "Kombiniere Überschriften und Listen für eine gute Struktur."
+    },
+    "ex4": {
+      "title": "Umzugs-Checkliste",
+      "story": "Du ziehst um! Erstelle eine organisierte Checkliste mit Überschriften und Listen.",
+      "step1": "Erstelle eine Überschrift 'Vor dem Umzug' als H2",
+      "step2": "Erstelle eine nummerierte Liste mit mindestens 3 Aufgaben",
+      "step3": "Schreibe mindestens 3 Textabsätze insgesamt",
+      "hint1": "Teile deine Checkliste in Abschnitte mit Überschriften.",
+      "hint2": "Nummerierte Listen zeigen die Reihenfolge – wichtig beim Umzug!"
+    }
+  },
+  "level3": {
+    "title": "Tabellen erstellen",
+    "story": "Du vergleichst Angebote, planst deine Woche und organisierst Informationen in Tabellen.",
+    "ex1": {
+      "title": "Stundenplan",
+      "story": "Erstelle deinen Stundenplan als Tabelle.",
+      "step1": "Füge eine Tabelle ein (⊞ Button)",
+      "step2": "Schreibe 'Montag' in die erste Kopfzelle",
+      "step3": "Mache die Überschrift 'Mein Stundenplan' fett",
+      "hint1": "Klicke auf den Tabellen-Button ⊞ – es wird eine 3×3 Tabelle eingefügt.",
+      "hint2": "Klicke in die erste Zelle und tippe 'Montag'."
+    },
+    "ex2": {
+      "title": "Preisvergleich",
+      "story": "Vergleiche die Preise von zwei Supermärkten in einer Tabelle.",
+      "step1": "Schreibe 'Milch' in die erste Produktzeile",
+      "step2": "Schreibe 'Brot' in die zweite Produktzeile",
+      "step3": "Schreibe 'Butter' in die dritte Produktzeile",
+      "hint1": "Klicke in die Zelle unter 'Produkt' und tippe 'Milch'.",
+      "hint2": "Die Tabelle hat schon Spalten für Aldi und Rewe – fülle die Preise ein!"
+    },
+    "ex3": {
+      "title": "Adressliste",
+      "story": "Erstelle eine Adressliste für deine Freunde.",
+      "step1": "Füge eine Tabelle ein",
+      "step2": "Schreibe 'Name' in die erste Kopfzelle",
+      "step3": "Schreibe 'Adresse' in die zweite Kopfzelle",
+      "hint1": "Die Kopfzeile enthält die Spaltenüberschriften.",
+      "hint2": "Typische Spalten: Name, Adresse, Telefon, E-Mail."
+    },
+    "ex4": {
+      "title": "Wochenplan",
+      "story": "Plane deine Woche in einer übersichtlichen Tabelle.",
+      "step1": "Füge eine Tabelle ein",
+      "step2": "Schreibe 'Zeit' in die erste Kopfzelle",
+      "step3": "Mache die Überschrift 'Wochenplan' fett",
+      "hint1": "Erstelle eine Tabelle mit Zeilen für Uhrzeiten und Spalten für Wochentage.",
+      "hint2": "Die erste Zeile und erste Spalte sind für Überschriften."
+    }
+  },
+  "level4": {
+    "title": "Dokument gestalten",
+    "story": "Du möchtest professionelle Dokumente erstellen — für die Schule und den Alltag.",
+    "ex1": {
+      "title": "Einladung gestalten",
+      "story": "Gestalte eine schöne Einladung mit Farben und Formatierung.",
+      "step1": "Mache 'Einladung zur Party!' zur Überschrift (H1)",
+      "step2": "Mache die Überschrift fett",
+      "step3": "Zentriere die Überschrift",
+      "hint1": "Klicke in die erste Zeile, dann auf H1.",
+      "hint2": "Zentrierter Text steht in der Mitte – perfekt für Einladungen!"
+    },
+    "ex2": {
+      "title": "Aushang",
+      "story": "Erstelle einen Aushang für das Schwarze Brett der Schule.",
+      "step1": "Mache 'Nachhilfe Angebot' zur Überschrift H1",
+      "step2": "Zentriere die Überschrift",
+      "step3": "Mache 'Kontakt:' fett",
+      "hint1": "Ein guter Aushang hat eine große, zentrierte Überschrift.",
+      "hint2": "Wichtige Infos wie Kontaktdaten werden fett hervorgehoben."
+    },
+    "ex3": {
+      "title": "Rezeptkarte",
+      "story": "Schreibe dein Lieblingsrezept als schönes Dokument mit Struktur.",
+      "step1": "Schreibe eine Überschrift 'Zutaten' als H2",
+      "step2": "Erstelle eine Aufzählung mit mindestens 3 Zutaten",
+      "step3": "Schreibe eine Überschrift 'Zubereitung' als H2",
+      "hint1": "Rezepte haben immer: Titel → Zutaten (Liste) → Zubereitung (Schritte).",
+      "hint2": "Benutze H2 für 'Zutaten' und 'Zubereitung' als Unter-Überschriften."
+    },
+    "ex4": {
+      "title": "Steckbrief",
+      "story": "Erstelle einen Steckbrief über dich – mit Tabelle und Formatierung.",
+      "step1": "Füge eine Tabelle ein",
+      "step2": "Schreibe 'Name' in die erste Zelle",
+      "step3": "Zentriere die Überschrift 'Mein Steckbrief'",
+      "hint1": "Ein Steckbrief benutzt oft eine Tabelle: links die Kategorie, rechts die Info.",
+      "hint2": "Typische Kategorien: Name, Alter, Hobbys, Lieblingsessen."
+    }
+  },
+  "level5": {
+    "title": "Geschäftsbrief",
+    "story": "Du schreibst deine erste Bewerbung und offizielle Briefe. Das ist eine wichtige Fähigkeit!",
+    "ex1": {
+      "title": "Absender & Empfänger",
+      "story": "Lerne, wie man Absender und Empfänger in einem Brief positioniert.",
+      "step1": "Schreibe deinen Namen und deine Adresse (mindestens 3 Zeilen)",
+      "step2": "Richte den Absender rechtsbündig aus",
+      "step3": "Schreibe den Empfänger darunter (Name und Adresse)",
+      "hint1": "Der Absender steht oben rechts, der Empfänger darunter links.",
+      "hint2": "Markiere alle Absender-Zeilen und klicke auf Rechtsbündig."
+    },
+    "ex2": {
+      "title": "Betreffzeile",
+      "story": "Die Betreffzeile sagt, worum es in deinem Brief geht.",
+      "step1": "Schreibe 'Betreff: Bewerbung als Praktikantin'",
+      "step2": "Mache die Betreffzeile fett",
+      "step3": "Mache 'Bewerbung' zusätzlich unterstrichen",
+      "hint1": "Die Betreffzeile kommt vor dem eigentlichen Brieftext.",
+      "hint2": "Fett + Unterstrichen hebt die Betreffzeile besonders hervor."
+    },
+    "ex3": {
+      "title": "Brieftext",
+      "story": "Schreibe den eigentlichen Text deines Bewerbungsbriefs.",
+      "step1": "Schreibe 'Sehr geehrte Damen und Herren,' als Anrede",
+      "step2": "Schreibe mindestens 3 Absätze Brieftext",
+      "step3": "Schreibe 'Mit freundlichen Grüßen' als Grußformel",
+      "hint1": "Ein formeller Brief beginnt mit 'Sehr geehrte Damen und Herren,'.",
+      "hint2": "Der Brieftext erklärt, warum du dich bewirbst. Am Ende steht immer eine Grußformel."
+    },
+    "ex4": {
+      "title": "Kompletter Geschäftsbrief",
+      "story": "Erstelle einen vollständigen Geschäftsbrief mit allem, was dazugehört.",
+      "step1": "Schreibe einen Absender rechtsbündig",
+      "step2": "Schreibe eine fette Betreffzeile",
+      "step3": "Schreibe 'Mit freundlichen Grüßen' am Ende",
+      "hint1": "Ein Geschäftsbrief hat: Absender → Empfänger → Datum → Betreff → Text → Gruß.",
+      "hint2": "Der Absender steht rechts, alles andere links. Die Betreffzeile ist fett."
+    }
+  },
+  "level6": {
+    "title": "Profi-Dokumente",
+    "story": "Du bist jetzt der Word-Profi und erstellst Dokumente wie im echten Beruf!",
+    "ex1": {
+      "title": "Lebenslauf",
+      "story": "Erstelle deinen ersten Lebenslauf – strukturiert und professionell.",
+      "step1": "Zentriere die Überschrift 'Lebenslauf'",
+      "step2": "Füge eine Tabelle für persönliche Daten ein",
+      "step3": "Schreibe 'Name' in die erste Zelle",
+      "hint1": "Ein Lebenslauf hat: Überschrift → Persönliche Daten → Bildung → Erfahrung.",
+      "hint2": "Benutze eine Tabelle für übersichtliche persönliche Daten."
+    },
+    "ex2": {
+      "title": "Praktikumsbericht",
+      "story": "Schreibe einen Praktikumsbericht mit Überschriften-Hierarchie.",
+      "step1": "Schreibe eine Überschrift '1. Einleitung' als H2",
+      "step2": "Schreibe mindestens 2 Absätze Text",
+      "step3": "Schreibe eine Überschrift '2. Tätigkeiten' als H2",
+      "hint1": "Berichte haben nummerierte Kapitel: 1. Einleitung, 2. Tätigkeiten, 3. Fazit.",
+      "hint2": "Jedes Kapitel bekommt eine H2-Überschrift und darunter den Text."
+    },
+    "ex3": {
+      "title": "Besprechungsprotokoll",
+      "story": "Erstelle ein professionelles Besprechungsprotokoll.",
+      "step1": "Füge eine Tabelle mit Besprechungsinfos ein",
+      "step2": "Schreibe 'Datum' in die erste Zelle",
+      "step3": "Mache die Überschrift 'Besprechungsprotokoll' fett",
+      "hint1": "Ein Protokoll enthält: Datum, Teilnehmer, Thema, Ergebnisse.",
+      "hint2": "Die Kopftabelle fasst die wichtigsten Infos zusammen."
+    },
+    "ex4": {
+      "title": "Bewerbungsanschreiben",
+      "story": "Erstelle ein vollständiges Bewerbungsanschreiben – dein Meisterstück!",
+      "step1": "Schreibe einen Absender rechtsbündig",
+      "step2": "Schreibe eine fette und unterstrichene Betreffzeile mit 'Bewerbung'",
+      "step3": "Schreibe 'Sehr geehrte Damen und Herren,' und 'Mit freundlichen Grüßen'",
+      "hint1": "Das ist die Kombination aus allem, was du gelernt hast!",
+      "hint2": "Absender rechts → Empfänger links → Betreff fett → Text → Gruß."
+    }
+  }
+}
