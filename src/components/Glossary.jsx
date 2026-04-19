@@ -4,13 +4,13 @@ const TERMS = [
   { de: 'Absatz', en: 'Paragraph', desc: 'Ein Textblock, getrennt durch Enter' },
   { de: 'Schriftart', en: 'Font', desc: 'Das Aussehen der Buchstaben (z.B. Arial)' },
   { de: 'Fett', en: 'Bold', desc: 'Text dicker machen (Strg+B)' },
-  { de: 'Kursiv', en: 'Italic', desc: 'Text schraeg stellen (Strg+I)' },
+  { de: 'Kursiv', en: 'Italic', desc: 'Text schräg stellen (Strg+I)' },
   { de: 'Unterstrichen', en: 'Underline', desc: 'Linie unter dem Text (Strg+U)' },
-  { de: 'Ueberschrift', en: 'Heading', desc: 'Grosser Text fuer Titel und Abschnitte' },
-  { de: 'Aufzaehlung', en: 'Bullet List', desc: 'Liste mit Punkten oder Nummern' },
+  { de: 'Überschrift', en: 'Heading', desc: 'Großer Text für Titel und Abschnitte' },
+  { de: 'Aufzählung', en: 'Bullet List', desc: 'Liste mit Punkten oder Nummern' },
   { de: 'Tabelle', en: 'Table', desc: 'Daten in Zeilen und Spalten ordnen' },
   { de: 'Ausrichtung', en: 'Alignment', desc: 'Text links, zentriert oder rechts' },
-  { de: 'Einrueckung', en: 'Indent', desc: 'Text weiter nach rechts ruecken' },
+  { de: 'Einrückung', en: 'Indent', desc: 'Text weiter nach rechts rücken' },
 ];
 
 export default function Glossary() {
