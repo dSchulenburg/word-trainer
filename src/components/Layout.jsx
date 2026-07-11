@@ -4,6 +4,7 @@ import { useGame } from '../context/GameContext';
 import { getPlayerLevel, getXPProgress } from '../utils/xp';
 import ProgressBar from './ui/ProgressBar';
 import LanguagePicker from './ui/LanguagePicker';
+import { OerFooter } from './OerFooter';
 
 export default function Layout({ children, currentView, onNavigate }) {
   const { t } = useI18n();
@@ -52,6 +53,7 @@ export default function Layout({ children, currentView, onNavigate }) {
         </nav>
       </header>
       <main>{children}</main>
+      <OerFooter title="Word-Trainer" />
     </div>
   );
 }

@@ -1,8 +1,12 @@
 {
   "name": "word-trainer",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "type": "module",
+  "description": "Interaktiver Word-Kurs mit echtem Editor: Formatierung, Listen, Tabellen und Layout – spielerisch mit XP und Abzeichen. Mehrsprachig (DE/UA). Open Educational Resource (Inhalte CC BY 4.0)",
+  "license": "MIT",
+  "author": "Dirk Schulenburg (https://dirk-schulenburg.net)",
+  "homepage": "https://lernmodule.dirk-schulenburg.net/word-trainer/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
