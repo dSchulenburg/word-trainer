@@ -10,6 +10,7 @@ import BadgeWall from './components/BadgeWall';
 import Glossary from './components/Glossary';
 import ProfileCard from './components/ProfileCard';
 import { getExercise } from './exercises';
+import { LernmodulWidget } from '../../shared/journal/LernmodulWidget';
 import './App.css';
 
 const pageVariants = {
@@ -112,6 +113,7 @@ export default function App() {
     <I18nProvider>
       <GameProvider>
         <AppContent />
+        <LernmodulWidget moduleId="word-trainer" />
       </GameProvider>
     </I18nProvider>
   );
