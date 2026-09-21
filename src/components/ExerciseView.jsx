@@ -1,6 +1,8 @@
 import { useState, useCallback, useRef } from 'react';
 import { useI18n } from '../context/I18nContext';
 import { useGame } from '../context/GameContext';
+import { dispatchSectionComplete } from '../../../shared/journal/dispatch';
+import { exercises as alleUebungen } from '../exercises';
 import { validateExercise, getCompletedSteps } from '../utils/validation';
 import { calculateExerciseXP, calculateStars } from '../utils/xp';
 import ExerciseInstructions from './ExerciseInstructions';
@@ -10,7 +12,7 @@ import LevelComplete from './LevelComplete';
 
 export default function ExerciseView({ exercise, onBack, onNextExercise }) {
   const { t } = useI18n();
-  const { completeExercise } = useGame();
+  const { completeExercise, exerciseResults } = useGame();
   const [docJSON, setDocJSON] = useState(null);
   const [validationResult, setValidationResult] = useState(null);
   const [completedSteps, setCompletedSteps] = useState(new Map());
@@ -43,10 +45,24 @@ export default function ExerciseView({ exercise, onBack, onNextExercise }) {
       setStars(s);
       completeExercise(exercise.id, totalErrors.current, seconds, exercise);
       setShowComplete(true);
+
+      // Journal-Signal: genau einmal feuern, wenn das LEVEL gerade fertig wird.
+      // exerciseResults ist der Stand VOR diesem completeExercise, enthaelt die
+      // eben geloeste Aufgabe also noch nicht. Ohne die wasAlreadyDone-Pruefung
+      // kaeme die Reflexionskarte bei jeder Wiederholung erneut hoch.
+      const levelUebungen = alleUebungen.filter((e) => e.levelId === exercise.levelId);
+      const schonFertig = !!exerciseResults[exercise.id];
+      const fertigJetzt =
+        levelUebungen.filter((e) => exerciseResults[e.id]).length + (schonFertig ? 0 : 1);
+      if (!schonFertig && levelUebungen.length > 0 && fertigJetzt >= levelUebungen.length) {
+        dispatchSectionComplete('word-trainer', `level-${exercise.levelId}`, {
+          concepts: [exercise.type || 'formatierung'],
+        });
+      }
     } else {
       totalErrors.current += result.errors;
     }
-  }, [docJSON, exercise, completeExercise]);
+  }, [docJSON, exercise, completeExercise, exerciseResults]);
 
   if (showComplete) {
     return (
